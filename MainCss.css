@@ -1,0 +1,137 @@
+
+body {
+      /*
+      background-color: #EEEEEE;
+      background: url("dog.jpg");
+      width:cover;
+      height:cover;
+      position: top;
+      */
+}
+
+a.class {
+        cursor: pointer;
+        text-decoration: none;
+}
+a:link {
+        text-decoration: none;
+        color: #808080;
+}
+a:visited {
+          text-decoration: none;
+          color:black;
+}
+a:hover {
+          text-decoration: underline;
+}
+
+.indexBanner{
+            position:relative;
+            text-align: center;
+            width:600px;
+}
+
+.background1 {
+                background-repeat:no-repeat;
+}
+
+
+img #icons {
+            width:5px;
+            height:5px;
+            border:none;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: lighter;
+    color:#808080;
+    /* border-style: dotted; ← Delete when all settled*/
+    background-color: white;
+    /* box-shadow: inset 0px 4px 8px 2px #BBBBBB; */
+}
+
+li {
+   display:inline;
+}
+
+nav .menubar {
+
+}
+
+
+
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-family: 'Book Antiqua', serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: white;
+  font-family: 'Book Antiqua', serif;
+  font-weight: lighter;
+}
+
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
